@@ -1,0 +1,9 @@
+# Test component container locally command
+
+docker container run -it --rm -v /Users/inardini/Work/tmp/2-Engineering/MachineLearningPlatforms/Kubeflow/base/data/:/usr/local/pipeline/data kf_prepare:1.0.0 --text-path /usr/local/pipeline/data/text.txt --pkl-path /usr/local/pipeline/data/list.pkl
+docker container run -it --rm -v /Users/inardini/Work/tmp/2-Engineering/MachineLearningPlatforms/Kubeflow/base/data/:/usr/local/pipeline/data kf_count_word:1.0.0 --pkl-path /usr/local/pipeline/data/list.pkl --word "Kubeflow" --count-path /usr/local/pipeline/data/count.txt
+
+# Components for free
+https://github.com/kubeflow/pipelines/
+wget https://github.com/kubeflow/pipelines/archive/0.2.5.tar.gz
+tar -xvf 0.2.5.tar.gz

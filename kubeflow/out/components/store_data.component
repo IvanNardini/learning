@@ -1,0 +1,39 @@
+name: Store data
+inputs:
+- {name: word_list, type: JsonArray}
+- {name: out_path, type: String}
+- {name: out_name, type: String}
+implementation:
+  container:
+    image: python:3.7
+    command:
+    - sh
+    - -ec
+    - |
+      program_path=$(mktemp)
+      printf "%s" "$0" > "$program_path"
+      python3 -u "$program_path" "$@"
+    - |
+      def store_data(word_list, out_path, out_name):
+          import os
+          import pickle
+          out_path_pkl = os.path.join(out_path, out_name)
+          with open(out_path_pkl, 'wb') as file:
+              pickle.dump(word_list, file)
+
+      import json
+      import argparse
+      _parser = argparse.ArgumentParser(prog='Store data', description='')
+      _parser.add_argument("--word-list", dest="word_list", type=json.loads, required=True, default=argparse.SUPPRESS)
+      _parser.add_argument("--out-path", dest="out_path", type=str, required=True, default=argparse.SUPPRESS)
+      _parser.add_argument("--out-name", dest="out_name", type=str, required=True, default=argparse.SUPPRESS)
+      _parsed_args = vars(_parser.parse_args())
+
+      _outputs = store_data(**_parsed_args)
+    args:
+    - --word-list
+    - {inputValue: word_list}
+    - --out-path
+    - {inputValue: out_path}
+    - --out-name
+    - {inputValue: out_name}
