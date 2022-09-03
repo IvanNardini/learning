@@ -1,0 +1,10 @@
+
+]
+java:S3518";Make sure "width" can't be zero before doing this division.(¹èÿ‘ÿÿÿÿÿ8¡ŸÐÃü.
+[
+java:S1854"9Remove this useless assignment to local variable "ratio".(¹èÿ‘ÿÿÿÿÿ8¡ŸÐÃü.
+L
+java:S1481"*Remove this unused "ratio" local variable.(¹èÿ‘ÿÿÿÿÿ8¡ŸÐÃü.
+U	java:S106	"9Replace this use of System.out or System.err by a logger.(‚Ÿçž8¡ŸÐÃü.
+0
+java:S1220""Move this file to a named package.

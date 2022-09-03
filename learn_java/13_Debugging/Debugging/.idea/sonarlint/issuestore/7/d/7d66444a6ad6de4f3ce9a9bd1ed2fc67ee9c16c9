@@ -1,0 +1,47 @@
+
+o	java:S100*"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë™û¢üÿÿÿÿ8ï¬ıÃü.
+l	java:S117J"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒÉÒ
+8ï¬ıÃü.
+Z	java:S1061"9Replace this use of System.out or System.err by a logger.(Ô¨†ûÿÿÿÿ8ï¬ıÃü.
+o	java:S100Q"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ì–Şñùÿÿÿÿ8ï¬ıÃü.
+c
+java:S1226/"AIntroduce a new variable instead of reusing the parameter "base".(ÎË·ûÿÿÿÿ8ï¬ıÃü.
+e
+java:S1226C"CIntroduce a new variable instead of reusing the parameter "length".(Ø‘µÿÿÿÿÿ8ï¬ıÃü.
+>
+java:S11106"!Remove these useless parentheses.(ìçÁâ8¿ÁÿÃü.
+U	java:S106\"9Replace this use of System.out or System.err by a logger.(É²Ş•8ï¬ıÃü.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ıßîËùÿÿÿÿ8ï¬ıÃü.
+U	java:S106B"9Replace this use of System.out or System.err by a logger.(¼šº»8ï¬ıÃü.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ï¬ıÃü.
+U	java:S1068"9Replace this use of System.out or System.err by a logger.(É²Ş•8ï¬ıÃü.
+Z	java:S1064"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ï¬ıÃü.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ï¬ıÃü.
+Z	java:S106H"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ï¬ıÃü.
+U	java:S106L"9Replace this use of System.out or System.err by a logger.(É²Ş•8ï¬ıÃü.
+`
+java:S12262"CIntroduce a new variable instead of reusing the parameter "height".(öªµä8ï¬ıÃü.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ï¬ıÃü.
+e
+java:S1226V"CIntroduce a new variable instead of reusing the parameter "radius".(ñÏÒàùÿÿÿÿ8ï¬ıÃü.
+Z	java:S106U"9Replace this use of System.out or System.err by a logger.(¾­Øÿÿÿÿÿ8ï¬ıÃü.
+_
+java:S1226F"BIntroduce a new variable instead of reusing the parameter "width".(¡ó½Ş8ï¬ıÃü.
+U	java:S106	"9Replace this use of System.out or System.err by a logger.(óÓ÷ú8ï¬ıÃü.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Èìá8ï¬ıÃü.
+j	java:S100>"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( ±8ï¬ıÃü.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(³ş †8ï¬ıÃü.
+Z	java:S106E"9Replace this use of System.out or System.err by a logger.(§¨öªıÿÿÿÿ8ï¬ıÃü.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(óÚ÷ÿ8ï¬ıÃü.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¸úÁú8ï¬ıÃü.
+j
+java:S11928"MDefine a constant instead of duplicating this literal "The area is " 3 times.(É²Ş•8ï¬ıÃü.
+Z	java:S106X"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ï¬ıÃü.
+U	java:S106d"9Replace this use of System.out or System.err by a logger.(±®íµ8ï¬ıÃü.
+T	java:S106."9Replace this use of System.out or System.err by a logger.(¡€8ï¬ıÃü.
+r	java:S117Z"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä¹òüşÿÿÿÿ8ï¬ıÃü.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÈÌá¾ùÿÿÿÿ8ï¬ıÃü.
+0
+java:S1220""Move this file to a named package.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ï¬ıÃü.
+m	java:S1176"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìçÁâ8ï¬ıÃü.

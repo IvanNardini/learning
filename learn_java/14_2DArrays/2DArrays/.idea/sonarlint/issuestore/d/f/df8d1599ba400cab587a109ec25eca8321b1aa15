@@ -1,0 +1,17 @@
+
+K
+java:S1481".Remove this unused "floatTwoD" local variable.(Û‹èˆ8Œ½¾ìü.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(µÔ‹‚ıÿÿÿÿ8Ã´úìü.
+Y
+java:S1854"=Remove this useless assignment to local variable "ticTacToe".(Éú8œŞìü.
+K
+java:S1481".Remove this unused "dataChart" local variable.(×‹ª¹8§Ììü.
+Z
+java:S1854
+"=Remove this useless assignment to local variable "floatTwoD".(ˆúíé8ÆİÂìü.
+0
+java:S1220""Move this file to a named package.
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8Áçıìü.
+Z
+java:S1854"=Remove this useless assignment to local variable "dataChart".(×‹ª¹8§Ììü.

@@ -1,0 +1,10 @@
+
+0
+java:S1220""Move this file to a named package.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Ô¿ÿ8†å£–ı.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(´‚››ıÿÿÿÿ8†å£–ı.
+]
+java:S1854";Remove this useless assignment to local variable "lapTime".(»·½Çûÿÿÿÿ8†å£–ı.
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8 ¥¾–ı.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¨ˆÌçüÿÿÿÿ8†å£–ı.

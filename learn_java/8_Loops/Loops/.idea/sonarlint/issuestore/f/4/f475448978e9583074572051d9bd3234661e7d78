@@ -1,0 +1,16 @@
+
+v
+java:S2293 "YReplace the type specification in this constructor call with the diamond operator ("<>").(ûõ‚Ž8Úú‘¥ú.
+]	java:S125"<This block of commented-out lines of code should be removed.(Œó…–þÿÿÿÿ8 €¨¥ú.
+U	java:S106'"9Replace this use of System.out or System.err by a logger.(ÁœÎá8Úú‘¥ú.
+s	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(¨…ÄK8¹ñ°¥ú.
+Ž
+java:S4165&"lRemove this useless assignment; "lunchContainer" already holds the assigned value along all execution paths.(öáç“ûÿÿÿÿ8Ÿ­´¥ú.
+0
+java:S1220""Move this file to a named package.
+[
+java:S4973"9Use the "equals" method if value comparison was intended.(«œÑßüÿÿÿÿ8˜£°¥ú.
+
+java:S1319"sThe type of the "lunchBox" object should be an interface such as "List" rather than the implementation "ArrayList".(‚ÞŒÎ8À¬«¥ú.
+
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(‚ÞŒÎ8À¬«¥ú.

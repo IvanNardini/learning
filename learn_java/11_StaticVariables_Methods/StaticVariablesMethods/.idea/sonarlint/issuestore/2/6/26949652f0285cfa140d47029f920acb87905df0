@@ -1,0 +1,24 @@
+
+n
+java:S1104"QMake money a static final constant or non-public and provide accessors if needed.(Òâ‡8×˜ÎŸû.
+M
+java:S1444"0Make this "public static totalMoney" field final(øú‰ 8×˜ÎŸû.
+s
+java:S1104"VMake totalMoney a static final constant or non-public and provide accessors if needed.(øú‰ 8×˜ÎŸû.
+0
+java:S1220""Move this file to a named package.
+A
+java:S3010"$Remove this assignment of "numATMs".( –åí8¹ÒŸû.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(«è¯»úÿÿÿÿ8×˜ÎŸû.
+u
+java:S1104"SMake numATMs a static final constant or non-public and provide accessors if needed.(ó º¿ùÿÿÿÿ8×˜ÎŸû.
+S
+java:S2696"6Make the enclosing method "static" or remove this set.(ô÷ÆÂ8×˜ÎŸû.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Ÿ…¬Ñ8óÌÖŸû.
+U	java:S106&"9Replace this use of System.out or System.err by a logger.(°Äÿ8×˜ÎŸû.
+D
+java:S3010"'Remove this assignment of "totalMoney".(òµ‹8¹ÒŸû.
+Z	java:S106!"9Replace this use of System.out or System.err by a logger.(«è¯»úÿÿÿÿ8×˜ÎŸû.
+U	java:S106#"9Replace this use of System.out or System.err by a logger.(°Äÿ8×˜ÎŸû.
+O
+java:S1444"-Make this "public static numATMs" field final(ó º¿ùÿÿÿÿ8×˜ÎŸû.

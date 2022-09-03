@@ -1,0 +1,12 @@
+
+X
+java:S1854";Remove this useless assignment to local variable "columns".(úñ´£8Ó‡…îü.
+F
+java:S1481")Remove this unused "rows" local variable.(ß€ù8âİ…îü.
+0
+java:S1220""Move this file to a named package.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(‚¨Ö§8äİşíü.
+I
+java:S1481",Remove this unused "columns" local variable.(úñ´£8Ó‡…îü.
+U
+java:S1854"8Remove this useless assignment to local variable "rows".(ß€ù8âİ…îü.

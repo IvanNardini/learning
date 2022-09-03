@@ -1,0 +1,9 @@
+
+U	java:S106"9Replace this use of System.out or System.err by a logger.(áØ×“8¥ÙÈû.
+0
+java:S1220""Move this file to a named package.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¾°½›ıÿÿÿÿ8ÂÚºû.
+U	java:S106	"9Replace this use of System.out or System.err by a logger.(â„Å´8²Æ¿û.
+F
+java:S2140")Use "java.util.Random.nextInt()" instead.(á²ã‰8åŒºû.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ì³Šüÿÿÿÿ8Ã’Ãû.

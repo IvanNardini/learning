@@ -1,0 +1,14 @@
+
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(‡ö„¢ÿÿÿÿÿ8 °ÒÈû.
+E
+java:S1659)"#Declare "ramen" on a separate line.(˜Üø™úÿÿÿÿ8óúêÉû.
+0
+java:S1220""Move this file to a named package.
+Z	java:S106/"9Replace this use of System.out or System.err by a logger.(­±óöüÿÿÿÿ8‡ºíÉû.
+[
+java:S3400"9Remove this method and declare a constant for this value.(¡üê°úÿÿÿÿ8óúêÉû.
+C
+java:S1659)"!Declare "pho" on a separate line.(˜Üø™úÿÿÿÿ8óúêÉû.
+g
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ÍËŞæøÿÿÿÿ8¯Î§Èû.
+]	java:S125"<This block of commented-out lines of code should be removed.(»•ûÿÿÿÿ8Á‚›Éû.

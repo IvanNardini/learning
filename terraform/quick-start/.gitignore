@@ -1,0 +1,5 @@
+.terraform
+inardini-playground-a2c42af9891c.json
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
