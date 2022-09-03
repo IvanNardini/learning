@@ -1,0 +1,15 @@
+# Count words.
+clean:
+	rm -f *.dat
+# This is an example of rule: the target, dependencies, and actions
+# Target ---> Dependency
+isles.dat : books/isles.txt
+		# Action
+		python countwords.py books/isles.txt isles.dat
+
+abyss.dat: books/abyss.txt
+		#Action
+		python countwords.py books/abyss.txt abyss.dat
+
+
+
