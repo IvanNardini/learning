@@ -1,0 +1,38 @@
+version: '3'
+
+services:
+  jenkins-master:
+    image: "devopslab/jenkins"
+    container_name: "jenkins-blueocean"
+    privileged: true
+    build: ./
+    ports:
+      - "50000:50000"
+      - "8080:8080"
+    volumes:
+        - "jenkins-docker-certs:/certs/client"
+        - "jenkins-data:/var/jenkins_home"
+        - "./:/home"
+    networks: 
+        - jenkins
+
+  docker:
+    privileged: true
+    image: "docker:dind"
+    container_name: "jenkins-docker"
+    ports:
+        - "2376:2376"
+    environment: 
+        - DOCKER_TLS_CERTDIR=/certs
+    volumes: 
+        - "jenkins-docker-certs:/certs/client"
+        - "jenkins-data:/var/jenkins_home"
+    networks: 
+        - jenkins
+
+volumes:
+    jenkins-docker-certs:
+    jenkins-data:
+
+networks: 
+    jenkins:
