@@ -1,0 +1,30 @@
+version: "3.5"
+
+services:
+
+    jupyterlab:
+        image:  jupyter/scipy-notebook:8b4d6f6ac0d7
+        container_name: development_datascience
+        networks:
+            - testing
+        ports:
+            - 8888:8888
+            - 8080:8080
+        volumes:
+            - ./:/home/jovyan/work/Testing
+
+    # scoring_app:
+    #     build:
+    #         context: ./app
+    #         dockerfile: Dockerfile
+    #     container_name: development_scoringApp
+    #     networks:
+    #         - testing
+    #     ports:
+    #         - 8080:8080
+    #     volumes:
+    #         - ./app:./app
+
+networks:
+    testing:
+
