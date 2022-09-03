@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="04701138-f53f-4d9d-9e82-f6bb1d7d1141" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../1_BytesShortIntLong/1_BytesShortIntLong.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../8_IF_THEN_Statement/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../9_AND_Statement/9_And_Statement.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_Primitive_Types_Challenge/2_Primitive_Types_Challenge.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../2_Primitive_Types_Challenge/2_Primitive_Types_Challenge.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_FloatandDouble/3_FloatandDouble.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../3_FloatandDouble/3_FloatandDouble.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_Pounds_to_Kilos_challenge.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5_Char_Bool/5_char_bool.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../5_Char_Bool/5_char_bool.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6_Strings/6_Strings.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../6_Strings/6_Strings.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../7_Operators_Operands_Expressions/7_Operators_Operands_Expressions.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../7_Operators_Operands_Expressions/7_Operators_Operands_Expressions.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_IF_THEN_Statement/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_IF_THEN_Statement/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../8_IF_THEN_Statement/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_IF_THEN_Statement/if_then_statement.iml" beforeDir="false" afterPath="$PROJECT_DIR$/4_Pounds_to_Kilos_Challenge.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_IF_THEN_Statement/out/production/if_then_statement/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8_IF_THEN_Statement/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../8_IF_THEN_Statement/src/com/company/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1fGPXqUZaKgVyyZyd1DW75BDQn5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="4_Pounds_to_Kilos_Challenge" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="04701138-f53f-4d9d-9e82-f6bb1d7d1141" name="Default Changelist" comment="" />
+      <created>1595841498778</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595841498778</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2659" y="267" key="FileChooserDialogImpl" timestamp="1596454786313">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2659" y="267" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040/3840.0.1920.1040@1920.0.1920.1040" timestamp="1596454786313" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1595842539484">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040/3840.0.1920.1040@1920.0.1920.1040" timestamp="1595842539484" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1595842539482">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040/3840.0.1920.1040@1920.0.1920.1040" timestamp="1595842539482" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1595842539482">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040/3840.0.1920.1040@1920.0.1920.1040" timestamp="1595842539482" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1595842539482">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040/3840.0.1920.1040@1920.0.1920.1040" timestamp="1595842539482" />
+    <state x="2262" y="146" key="new project wizard" timestamp="1596454815903">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2262" y="146" key="new project wizard/0.0.1280.680/1920.0.1920.1040/3840.0.1920.1040@1920.0.1920.1040" timestamp="1596454815903" />
+  </component>
+</project>
