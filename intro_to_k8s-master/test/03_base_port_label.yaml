@@ -1,0 +1,15 @@
+apiVersion: v1
+#set kind of resource
+kind: Pod
+metadata:
+  name: podtest
+  labels:
+    app: webserver
+#how the pod is
+spec:
+  containers:
+    - name: test
+      image: nginx:latest
+      ports:
+        - containerPort: 80
+        

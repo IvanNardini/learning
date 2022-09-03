@@ -1,0 +1,23 @@
+apiVersion: v1
+#set kind of resource
+kind: Pod
+metadata:
+  name: podtest
+  labels:
+    app: webserver
+#how the pod is
+spec:
+  containers:
+    - name: test
+      image: nginx:latest
+      resources:
+        requests: #minimum amount of resources requested 
+          memory: "128Mi" #Mega Binary byte (MiB) 1 MiB = 220 bytes = 1048576bytes = 1024 kibibytes
+          cpu: "500m" # 500m = 500 milliCPUs (1/2) CPU
+        limits: #maximum amount of resources requested
+          memory: "128Mi"
+          cpu: "500m"
+      ports:
+        - containerPort: 80
+
+        

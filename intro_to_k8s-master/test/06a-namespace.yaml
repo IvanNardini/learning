@@ -1,0 +1,9 @@
+# Namespace does not need spec
+apiVersion: v1
+kind: Namespace
+metadata:
+  #namespace name
+  name: microservice
+  labels:
+    #related to the app
+    app: counter

@@ -1,0 +1,32 @@
+#Data Tier: Service and Pod
+apiVersion: v1
+kind: Service
+metadata:
+  name: data-tier
+  labels:
+    app: microservices
+spec:
+  selector:
+    tier: data
+  ports:
+  - port: 6379
+    protocol: TCP #default
+    name: redis #optional when only 1 port
+  type: ClusterIP #default. Cluster IP creates a virtual IP inside the cluster for internal access only.
+
+--- #declare multiple resource in one file. 
+apiVersion: v1
+kind: Pod
+metadata:
+  name: data-tier #both are in data tier
+  labels:
+    app: microservices
+    tier: data #Pod has a tier label used by the service selector. 
+               #Notice we can include as many as labels we need!
+spec:
+  containers:
+  - name: redis
+    image: redis:latest
+    imagePullPolicy: IfNotPresent
+    ports:
+      - containerPort: 6379

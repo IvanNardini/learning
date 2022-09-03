@@ -1,0 +1,15 @@
+#Why? 
+#Services are implemented by one or more pods for Elasticity 
+#and Resilience. In the cloud pods can come and go when there 
+#are hardware failures or when pods get rescheduled onto 
+#different nodes to improve resource utilisation.
+#To use a service you need to dynamically discover the pods 
+#implementing the service so that you can invoke it. 
+#This is called service discovery.
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: service-discovery
+  labels:
+    app: counter
+    

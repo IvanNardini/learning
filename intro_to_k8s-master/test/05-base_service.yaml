@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+#Same label of pod because it refers to it 
+metadata:
+  labels:
+    app: webserver
+  name: webserver
+spec:
+  #value of container port to target
+  ports:
+  - port: 80
+  #label to match the pod
+  selector:
+    app: webserver
+  # parameter to expose the service. Select random port by k8s
+  type: NodePort

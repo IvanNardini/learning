@@ -1,0 +1,39 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: data-tier
+  labels:
+   app: microservices
+spec:
+  selector:
+    tier: data
+  ports:
+  - port: 6379
+    protocol: TCP #default
+    name: redis
+  type: ClusterIP
+---
+apiVersion: apps/v1 #A specific group of APIs to manage applications. Not the core API
+kind: Deployment #new kind
+metadata:
+  name: data-tier
+  labels:
+    app: microservices
+    tier: data
+spec: #Deployment content
+  replicas: 1 # how many pods to create
+  selector: # to group pods in a same deployment with labels
+    matchLabels: # should overlap Pod template below
+      tier: data
+  template: # Pod template
+    metadata:
+      labels: #we don't have name cause K8s generates it for replica
+        app: microservices
+        tier: data
+    spec: 
+      containers:
+      - name: redis 
+        image: redis:latest
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 6379

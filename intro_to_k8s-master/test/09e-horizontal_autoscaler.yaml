@@ -1,0 +1,23 @@
+apiVersion: autoscaling/v1
+kind: HorizontalPodAutoscaler
+metadata:
+  name: app-tier
+  labels:
+    app: microservices
+    tier: app
+spec:
+  maxReplicas: 5
+  minReplicas: 2
+  scaleTargetRef: #it identifies what resource should scale
+    apiVersion: apps/v1
+    kind: Deployment
+    name: app-tier
+  targetCPUUtilizationPercentage: 70 #set the target CPU utilization across the replicas
+                                       #With the target set to 70 percent, kubernetes will decrease 
+                                       #the number of replicas if the average CPU utilization if 63% 
+                                       #or below and increase the replicas if it is 77% or higher, 
+                                       #using the default target tolerance of 10% of the target. 
+                                       #The tolerance ensures that kubernetes isn’t constantly 
+                                       #scaling up and down around the target
+
+

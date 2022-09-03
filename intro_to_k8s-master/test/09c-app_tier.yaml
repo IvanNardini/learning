@@ -1,0 +1,49 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: app-tier
+  labels:
+    app: microservices
+spec:
+  selector:
+    tier: app
+  ports:
+  - port: 8080
+--- 
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app-tier
+  labels:
+    app: microservices
+    tier: app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      tier: app
+  template:
+    metadata:
+      labels:
+        app: microservices
+        tier: app
+    spec:
+      containers:
+      - name: server 
+        image: lrakai/microservices:server-v1
+        ports:
+        - containerPort: 8080
+        resources: #resource requests
+          requests:
+            cpu: 20m #20 milliCPU / 0.02 CPU
+                     #Kubernetes will only scale the pods on nodes with at least 0.02 CPUs remaining
+        env:
+         - name: REDIS_URL
+           # Environment variable service discovery
+           # Naming pattern:
+           #   IP address: <all_caps_service_name>_SERVICE_HOST
+           #   Port: <all_caps_service_name>_SERVICE_PORT
+           #   Named Port: <all_caps_service_name>_SERVICE_PORT_<all_caps_port_name>
+           value: redis://$(DATA_TIER_SERVICE_HOST):$(DATA_TIER_SERVICE_PORT_REDIS)
+           # In multi-container example value was
+           # value: redis://localhost:6379 

@@ -1,0 +1,10 @@
+apiVersion: v1
+#set kind of resource
+kind: Pod
+metadata:
+  name: podtest
+#how the pod is
+spec:
+  containers:
+    - name: test
+      image: nginx:latest

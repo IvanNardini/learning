@@ -1,0 +1,35 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: app
+  # We can add namespace here but it would be less portable. 
+  # Then you have to run -n namespace name. 
+  namespace: microservice
+spec:
+  #multi container pods
+  containers:
+    - name: redis
+      image: redis:latest #latest pull last version
+      imagePullPolicy: IfNotPresent #but it would break app. Then imagePullPolicy. 
+      ports:
+        - containerPort: 6379
+ 
+    - name: server
+      image: lrakai/microservices:server-v1
+      ports:
+        - containerPort: 8080
+      env:
+        - name: REDIS_URL
+          value: redis://localhost:6379 #localhost because all containers are in the same pod
+
+    - name: counter
+      image: lrakai/microservices:counter-v1
+      env:
+        - name: API_URL
+          value: http://localhost:8080
+
+    - name: poller
+      image: lrakai/microservices:poller-v1
+      env:
+        - name: API_URL
+          value: http://localhost:8080

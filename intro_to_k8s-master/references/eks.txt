@@ -1,0 +1,2 @@
+https://docs.aws.amazon.com/eks/latest/userguide/getting-started-eksctl.html
+https://github.com/weaveworks/eksctl
