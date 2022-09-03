@@ -1,0 +1,27 @@
+--- disk_usage.py	2020-07-21 07:43:37.112050600 +0000
++++ disk_usage_fixed.py	2020-07-21 08:01:38.325785300 +0000
+@@ -2,8 +2,9 @@
+ 
+ import shutil
+ import logging
++import sys
+ 
+-logging.basicConfig(format='%(asctime)s %(levelname)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p', level=logging.ERROR)
++logging.basicConfig(format='%(asctime)s %(levelname)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
+ 
+ def check_disk_usage(disk, min_abs, min_perc):
+   """Returns True if there is enough free disk space, false otherwise"""
+@@ -17,10 +18,10 @@
+   return True
+ 
+ #Check for at least 2GB and 10% free
+-if not check_disk_usage("/", 2*2**30, 10):
++if not check_disk_usage("/", 2, 10):
+   logging.error("Not enough disk space")
+-  return 1
++  sys.exit(1)
+ logging.info("Everything ok!")
+-return 0
++sys.exit(0)
+ 
+ 

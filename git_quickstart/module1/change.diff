@@ -1,0 +1,12 @@
+--- rearrange_v1.py	2020-04-06 12:11:12.266000000 +0000
++++ rearrange_v2.py	2020-04-06 12:38:45.227166200 +0000
+@@ -1,7 +1,7 @@
+ import re 
+ 
+ def rearrange_name(name):
+-    result = re.search(r"^([\w .]*), ([\w .]*)$", name)
++    result = re.search(r"^([\w .]*),?([\w .]*)$", name)
+     if result == None:
+         return result
+     return "{} {}".format(result[2], result[1])
+\ No newline at end of file
